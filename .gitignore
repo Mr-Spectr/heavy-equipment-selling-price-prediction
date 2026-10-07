@@ -1,0 +1,17 @@
+# Competition data and generated submissions
+data/
+*.csv
+!sample_submission.csv
+
+# Jupyter artefacts
+.ipynb_checkpoints/
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local editor settings
+.vscode/
+.idea/
