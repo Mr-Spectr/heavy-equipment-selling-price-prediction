@@ -2,6 +2,8 @@
 
 End-to-end machine learning solution for Kaggle's **Heavy Equipment Selling Price Prediction Challenge**. The project predicts auction selling prices (`TargetValue`) for used heavy equipment from historical transaction, machine, specification, usage, and regional data.
 
+![Competition results at a glance](assets/results-at-a-glance.svg)
+
 ## Highlights
 
 - **Top 17% on the public leaderboard:** ranked **441st of 2,593 participants** (AbhayRawat).
@@ -27,6 +29,8 @@ Competition page: [Kaggle overview](https://www.kaggle.com/competitions/heavy-eq
 
 ## What I built
 
+![End-to-end machine-learning workflow](assets/ml-workflow.svg)
+
 The notebook, [`heavy_equipment_price_prediction.ipynb`](heavy_equipment_price_prediction.ipynb), implements the full ML workflow:
 
 1. Loads Kaggle's `train.csv`, `test.csv`, `metadata.csv`, and sample submission.
@@ -51,6 +55,8 @@ The notebook, [`heavy_equipment_price_prediction.ipynb`](heavy_equipment_price_p
 LightGBM receives categorical features as categoricals; Extra Trees uses a fitted median/mode-imputation and ordinal-encoding pipeline. This allows each learner to use an appropriate representation while keeping validation isolated from fitting decisions.
 
 ## Modelling approach
+
+![Validation RMSLE by model](assets/model-performance.svg)
 
 | Model | Validation RMSLE |
 | --- | ---: |

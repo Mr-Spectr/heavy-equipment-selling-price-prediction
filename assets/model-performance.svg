@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="410" viewBox="0 0 900 410" role="img" aria-labelledby="title desc">
+  <title id="title">Validation RMSLE by model</title>
+  <desc id="desc">Horizontal bar chart comparing four models. The LightGBM plus Extra Trees ensemble has the lowest RMSLE at 0.200180.</desc>
+  <style>
+    .bg { fill: #0b1220; } .panel { fill: #111c31; } .title { fill: #f8fafc; font: 700 25px Arial, sans-serif; }
+    .sub { fill: #94a3b8; font: 15px Arial, sans-serif; } .label { fill: #dbeafe; font: 16px Arial, sans-serif; }
+    .value { fill: #e2e8f0; font: 700 16px Arial, sans-serif; } .tick { fill: #94a3b8; font: 13px Arial, sans-serif; }
+  </style>
+  <rect class="bg" width="900" height="410" rx="22"/>
+  <rect class="panel" x="28" y="24" width="844" height="362" rx="16"/>
+  <text class="title" x="62" y="72">Holdout model comparison</text>
+  <text class="sub" x="62" y="98">Lower RMSLE is better • leakage-safe 80/20 validation split</text>
+  <g stroke="#334155" stroke-width="1">
+    <line x1="350" y1="130" x2="350" y2="338"/><line x1="500" y1="130" x2="500" y2="338"/>
+    <line x1="650" y1="130" x2="650" y2="338"/><line x1="800" y1="130" x2="800" y2="338"/>
+  </g>
+  <g class="tick" text-anchor="middle"><text x="350" y="363">0.19</text><text x="500" y="363">0.20</text><text x="650" y="363">0.21</text><text x="800" y="363">0.22</text></g>
+  <text class="label" x="62" y="157">LightGBM + Extra Trees</text><rect x="350" y="136" width="153" height="31" rx="7" fill="#22c55e"/><text class="value" x="518" y="158">0.200180</text>
+  <text class="label" x="62" y="207">LightGBM baseline</text><rect x="350" y="186" width="198" height="31" rx="7" fill="#38bdf8"/><text class="value" x="563" y="208">0.203192</text>
+  <text class="label" x="62" y="257">Regularized LightGBM</text><rect x="350" y="236" width="210" height="31" rx="7" fill="#818cf8"/><text class="value" x="575" y="258">0.203984</text>
+  <text class="label" x="62" y="307">Extra Trees</text><rect x="350" y="286" width="449" height="31" rx="7" fill="#f59e0b"/><text class="value" x="814" y="308">0.219877</text>
+  <circle cx="487" cy="151" r="5" fill="#dcfce7"/><text class="sub" x="62" y="338">Selected blend: 70% LightGBM + 30% Extra Trees</text>
+</svg>

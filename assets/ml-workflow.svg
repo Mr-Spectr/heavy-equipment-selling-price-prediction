@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" role="img" aria-labelledby="title desc">
+  <title id="title">Machine-learning workflow</title>
+  <desc id="desc">Flow diagram from competition data through exploration, leakage-safe feature engineering, model comparison, ensemble selection, and submission.</desc>
+  <style>.bg{fill:#f8fafc}.box{fill:#fff;stroke:#cbd5e1;stroke-width:2}.t{fill:#0f172a;font:700 16px Arial,sans-serif}.s{fill:#475569;font:13px Arial,sans-serif}.arrow{stroke:#64748b;stroke-width:3;fill:none}</style>
+  <rect class="bg" width="1000" height="260" rx="20"/>
+  <text x="38" y="43" class="t" font-size="22">From raw transactions to validated predictions</text>
+  <g>
+    <rect class="box" x="32" y="84" width="132" height="112" rx="14"/><text class="t" x="52" y="119">1. Data</text><text class="s" x="52" y="144">Train / test</text><text class="s" x="52" y="164">metadata</text>
+    <path class="arrow" d="M164 140H190"/><path fill="#64748b" d="M190 134l12 6-12 6z"/>
+    <rect class="box" x="204" y="84" width="132" height="112" rx="14"/><text class="t" x="224" y="119">2. Explore</text><text class="s" x="224" y="144">Skew, gaps,</text><text class="s" x="224" y="164">relationships</text>
+    <path class="arrow" d="M336 140H362"/><path fill="#64748b" d="M362 134l12 6-12 6z"/>
+    <rect x="376" y="84" width="132" height="112" rx="14" fill="#eff6ff" stroke="#60a5fa" stroke-width="2"/><text class="t" x="396" y="119">3. Engineer</text><text class="s" x="396" y="144">Dates, age,</text><text class="s" x="396" y="164">utilization</text>
+    <path class="arrow" d="M508 140H534"/><path fill="#64748b" d="M534 134l12 6-12 6z"/>
+    <rect x="548" y="84" width="132" height="112" rx="14" fill="#f5f3ff" stroke="#a78bfa" stroke-width="2"/><text class="t" x="568" y="119">4. Validate</text><text class="s" x="568" y="144">Stratified split</text><text class="s" x="568" y="164">No leakage</text>
+    <path class="arrow" d="M680 140H706"/><path fill="#64748b" d="M706 134l12 6-12 6z"/>
+    <rect x="720" y="84" width="132" height="112" rx="14" fill="#ecfdf5" stroke="#34d399" stroke-width="2"/><text class="t" x="740" y="119">5. Blend</text><text class="s" x="740" y="144">LightGBM +</text><text class="s" x="740" y="164">Extra Trees</text>
+    <path class="arrow" d="M852 140H878"/><path fill="#64748b" d="M878 134l12 6-12 6z"/>
+    <rect x="892" y="84" width="76" height="112" rx="14" fill="#fefce8" stroke="#facc15" stroke-width="2"/><text class="t" x="905" y="119">6.</text><text class="t" x="900" y="141">Ship</text><text class="s" x="902" y="165">CSV</text>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="230" viewBox="0 0 1000 230" role="img" aria-labelledby="title desc">
+  <title id="title">Competition results at a glance</title>
+  <desc id="desc">Three result cards displaying top 17 percent rank, 0.19450 public leaderboard RMSLE, and 0.20018 best holdout RMSLE.</desc>
+  <style>.t{fill:#f8fafc;font:700 18px Arial,sans-serif}.n{fill:#fff;font:700 42px Arial,sans-serif}.s{fill:#cbd5e1;font:15px Arial,sans-serif}</style>
+  <rect width="1000" height="230" rx="22" fill="#0f172a"/>
+  <text x="38" y="44" class="t">Competition results at a glance</text>
+  <rect x="32" y="66" width="286" height="128" rx="16" fill="#1d4ed8"/><text x="58" y="113" class="n">Top 17%</text><text x="58" y="146" class="t">441 / 2,593 participants</text><text x="58" y="171" class="s">Public leaderboard rank</text>
+  <rect x="357" y="66" width="286" height="128" rx="16" fill="#0f766e"/><text x="383" y="113" class="n">0.19450</text><text x="383" y="146" class="t">Public leaderboard RMSLE</text><text x="383" y="171" class="s">Competition submission</text>
+  <rect x="682" y="66" width="286" height="128" rx="16" fill="#7c3aed"/><text x="708" y="113" class="n">0.20018</text><text x="708" y="146" class="t">Best holdout RMSLE</text><text x="708" y="171" class="s">70/30 ensemble blend</text>
+</svg>
